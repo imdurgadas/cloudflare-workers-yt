@@ -1,0 +1,17 @@
+@host = https://durgadas.in/api 
+
+GET {{host}}/hello
+
+###
+
+GET {{host}}/tasks/10
+
+###
+POST {{host}}/tasks
+Content-Type: application/json
+
+{
+    "id": 1,
+    "title": "MY first task",
+    "description": "Description for the first task"
+}

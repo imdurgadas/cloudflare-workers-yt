@@ -1,0 +1,7 @@
+name = "serverless-api-cf"
+main = "src/index.ts"
+compatibility_date = "2022-11-20"
+
+workers_dev = false
+minify = true
+route = "https://durgadas.in/api/*"
